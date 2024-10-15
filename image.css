@@ -1,0 +1,165 @@
+body {
+  background-color: #ffdccc;
+  color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+a {
+  color: #530000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+}
+.right {
+  position: relative;
+  right: 20px;
+  margin: 0 10px;
+}
+
+.right a:last-child {
+  background-color: #000000;
+  color: #ffdccc;
+  width: 100px;
+  border-radius: 100px;
+  padding: 0 15px;
+}
+
+.left {
+  position: relative;
+  left: 20px;
+}
+
+.right a span {
+  margin-left: 5px;
+}
+
+.text {
+  position: relative;
+  top: 100px;
+  align-items: center;
+}
+
+/* hero section*/
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  position: relative;
+  left: 50rem;
+  bottom: 20rem;
+}
+.text {
+  float: right;
+}
+
+.links {
+  margin: 0 50px;
+}
+.links a:first-child {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 2px;
+}
+.links a:first-child:hover {
+  color: #000000;
+  border: 2px solid #000000;
+  background-color: #530000;
+}
+.links a:nth-child(2) {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 2px;
+}
+.links a:nth-child(2):hover {
+  color: #000000;
+  border: 2px solid #000000;
+  background-color: #530000;
+}
+
+.links a:last-child {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 2px;
+}
+.links a:last-child:hover {
+  color: #000000;
+  border: 2px solid #000000;
+  background-color: #530000;
+}
+
+/* Skills section*/
+
+.skills {
+  position: relative;
+  bottom: 10rem;
+  left: 35rem;
+}
+.text2 {
+  position: relative;
+  right: 35rem;
+}
+.links2 {
+  position: relative;
+  right: 10rem;
+  margin: 0 60px;
+}
+.image2 {
+  position: relative;
+  bottom: 18rem;
+}
+.text3 {
+  position: relative;
+  bottom: 1rem;
+  left: 65rem;
+  display: flex;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 17.4rem;
+  bottom: 2.5rem;
+}
+.header {
+  position: relative;
+  bottom: 13rem;
+  left: 3rem;
+}
+.text4 {
+  position: relative;
+  bottom: 14rem;
+}
+.info {
+  position: relative;
+  bottom: 10rem;
+  left: 60rem;
+  bottom: 23rem;
+  right: 8rem;
+}
+.info2 {
+  position: relative;
+  bottom: 10rem;
+  left: 60rem;
+  bottom: 20rem;
+}
+
+.info3 {
+  position: relative;
+  bottom: 10rem;
+  left: 58rem;
+  bottom: 15rem;
+}
